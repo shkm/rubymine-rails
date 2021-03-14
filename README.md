@@ -1,24 +1,8 @@
-# README
+# Rubymine-Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repo was created to play around with RubyMine. See  the [blog post](https://blog.schembri.me/post/rubymine-with-docker/).
 
-Things you may want to cover:
+## Setup
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. docker-compose up
+2. docker-compose run web rake db:create
